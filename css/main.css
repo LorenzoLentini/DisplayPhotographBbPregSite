@@ -1,10 +1,30 @@
+@font-face {
+  font-family: 'Ephesis', cursive;
+  src: url('./fonts/Ephesis-Regular.ttf');
+ }
 
+ body{
+   font-family: "Ephesis", cursive;
+   font-size: 24px;
+   font-weight: bold;
+ }
 #navAll{
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
+#accueilsect1{
+  position: relative;
+  text-align: center;
+}
 #imgvitr{
   display: flex;
   justify-content: center;
 }
+#overimgvitr{
+  position: absolute;
+  bottom: 50%;
+  right: 25%;
+}
+
+
