@@ -25,7 +25,7 @@ header {
   background-color: rgb(181, 150, 211);
 }
 #logosite {
-  width: 10vw;
+  width: 100px;
 }
 #linkhead {
   color: black;
@@ -87,6 +87,7 @@ header {
 }
 
 #accueilquickpres {
+  padding: 2vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
