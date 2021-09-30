@@ -10,22 +10,18 @@ a:hover {
   color: rgb(224, 172, 198);
 }
 
+
+
 body {
-  margin: 0px;
-  padding: 0px;
   border: 0px;
+  margin: 0px;
+  padding:0px;
   font-family: "Ephesis", cursive;
   background-color: rgb(150, 104, 150);
 }
-main{
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-}
+
 
 header {
-  margin: 0px;
-  padding: 0px;
   background-color: rgb(181, 150, 211);
 }
 #logosite {
@@ -91,14 +87,15 @@ header {
 }
 
 #accueilquickpres {
-  margin-top: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 24px;
 }
 
-#portrait {
-  width: 28vw;
+#presentation {
+  text-align: center;
+  font-size: 38px;
 }
 
 #accueil3photos {
@@ -126,13 +123,7 @@ header {
   font-weight: bold;
 }
 
-#presentation {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-size: 38px;
-  margin-right: 5vw;
-}
+
 
 #tarifs {
   font-size: 28px;
