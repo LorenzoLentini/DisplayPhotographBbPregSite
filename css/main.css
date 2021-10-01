@@ -13,7 +13,6 @@ select {
   font-size: 18px;
 }
 
-
 a:hover {
   color: rgb(224, 172, 198);
 }
@@ -210,27 +209,22 @@ figcaption {
 }
 
 .msg {
-  margin: 2vw;
   display: flex;
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
 }
 
-.msgform {
-  display: flex;
-  margin: 2vw;
-}
 .leftpartform {
   background-color: #9b5858;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  flex-direction: column;
 }
 
 .nm,
@@ -258,12 +252,11 @@ figcaption {
   -o-border-radius: 5px;
 }
 
-
 .msgtxtarea {
   border-radius: 15px;
   font-size: 18px;
   width: 30vw;
-  height: 18vw;
+  height: 15vw;
   margin-right: 2vw;
   margin-left: 25vw;
   -webkit-border-radius: 15px;
