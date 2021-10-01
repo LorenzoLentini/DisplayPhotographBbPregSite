@@ -3,6 +3,17 @@
   src: url("fonts/Ephesis-Regular.ttf");
 }
 
+input[type="text"] {
+  font-size: 18px;
+}
+input[type="email"] {
+  font-size: 18px;
+}
+select {
+  font-size: 18px;
+}
+
+
 a:hover {
   color: rgb(224, 172, 198);
 }
@@ -18,10 +29,10 @@ body {
 header {
   background-color: rgb(181, 150, 211);
 }
-#logosite {
+.logosite {
   width: 200px;
 }
-#linkhead {
+.linkhead {
   color: black;
   background-color: rgb(212, 144, 144);
   padding: 15px 25px;
@@ -33,23 +44,23 @@ header {
   text-decoration: none;
 }
 
-#linkhead:hover {
+.linkhead:hover {
   color: #9b5858;
 }
 
-#footerAll {
+.footerAll {
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
   color: rgb(77, 77, 77);
   font-size: 10px;
   height: 10px;
 }
-#footertxtall {
+.footertxtall {
   background-color: bisque;
   padding-top: 1vw;
 }
 
-#navAll {
+.navAll {
   margin: 0vw;
   display: flex;
   justify-content: space-evenly;
@@ -58,14 +69,14 @@ header {
   font-weight: bold;
 }
 
-#accueilsect1 {
+.accueilsect1 {
   position: relative;
   text-align: center;
 }
-#imgvitr {
+.imgvitr {
   margin: 0vw;
 }
-#overimgvitr {
+.overimgvitr {
   background-color: #80808049;
   padding: 20px 10px;
   border-radius: 15px;
@@ -74,17 +85,17 @@ header {
   right: 10%;
 }
 
-#overimgtitle,
-#seance {
+.overimgtitle,
+.seance {
   font-size: 300%;
   margin: 20px;
   text-decoration: none;
 }
-#adress {
+.adress {
   font-size: 280%;
 }
 
-#accueilquickpres {
+.accueilquickpres {
   padding: 2vw;
   display: flex;
   justify-content: space-evenly;
@@ -92,12 +103,12 @@ header {
   font-size: 24px;
 }
 
-#presentation {
+.presentation {
   text-align: center;
   font-size: 38px;
 }
 
-#accueil3photos {
+.accueil3photos {
   margin: 0px;
   padding: 0px;
   background-color: rgb(223, 184, 157);
@@ -107,7 +118,7 @@ header {
   text-align: center;
 }
 
-#photosdisp {
+.photosdisp {
   width: 80%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -116,30 +127,30 @@ header {
   -o-border-radius: 15px;
 }
 
-#photodescr {
+.photodescr {
   margin: 25px;
   font-size: 24px;
   font-weight: bold;
 }
 
-#tarifs {
+.tarifs {
   font-size: 28px;
   margin-left: 5vw;
   margin-right: 5vw;
 }
 
-#tarif1 {
+.tarif1 {
   display: flex;
   align-items: start;
 }
 
-#tarif2 {
+.tarif2 {
   display: flex;
   align-items: start;
   flex-direction: row-reverse;
 }
 
-#tarifphoto1 {
+.tarifphoto1 {
   width: 25vw;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -148,7 +159,7 @@ header {
   -o-border-radius: 15px;
 }
 
-#tarifphoto2 {
+.tarifphoto2 {
   width: 25vw;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -157,7 +168,7 @@ header {
   -o-border-radius: 15px;
 }
 
-#tarifphoto3 {
+.tarifphoto3 {
   width: 25vw;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -183,7 +194,7 @@ header {
   -o-border-radius: 15px;
 }
 
-#centeredphotgal {
+.centeredphotgal {
   display: flex;
   justify-content: center;
 }
@@ -198,16 +209,88 @@ figcaption {
   text-align: center;
 }
 
-.leftpartform{
+.msg {
+  margin: 2vw;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 10vw;
-  width: 30vw;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.rightpartform{
+.msgform {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 50vw;
+  margin: 2vw;
+}
+.leftpartform {
+  background-color: #9b5858;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.nm,
+.pnm {
+  width: 10vw;
+}
+.mail {
+  width: 15vw;
+}
+.unroll {
+  width: 8vw;
+}
+
+.mail,
+.unroll,
+.submit,
+.formtitle,
+.nm,
+.pnm {
+  margin-left: 5vw;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+.msgtxtarea {
+  border-radius: 15px;
+  font-size: 18px;
   width: 30vw;
+  height: 18vw;
+  margin-right: 2vw;
+  margin-left: 25vw;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.submit:hover {
+  background-color: #e77d7d;
+  color: white;
+  border-radius: 15px;
+  width: 5vw;
+  height: 2vw;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.submit {
+  background-color: rgb(212, 144, 144);
+  border-radius: 15px;
+  width: 5vw;
+  height: 2vw;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
