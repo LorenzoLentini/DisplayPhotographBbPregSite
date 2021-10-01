@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -22,6 +22,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
+
 <body>
   <header id="headAll">
     <nav id="navAll">
@@ -38,7 +39,26 @@
   </header>
 
   <main>
-
+    <section id="msg">
+      <form id="msgform">
+        <label class="leftpartform" for="nom" >Nom</label>
+        <input class="leftpartform" type="text" name="nom" id="nom" pattern="[A-Za-z]"  required>
+        <label class="leftpartform" for="prenom">Prénom</label>
+        <input class="leftpartform" type="text" name="prenom" id="prenom" pattern="[A-Za-z]" required>
+        <label class="leftpartform" for="mail">Email</label>
+        <input class="leftpartform" type="email" name="mail" id="mail" required>
+        <label class="leftpartform" for="sujet">Sujet</label>
+        <select class="leftpartform" name="sujet" id="sujet">
+          <option value="photobebe">Photo Bébé</option>
+          <option value="photofam">Photo Famille</option>
+          <option value="photoext">Photo Exterieur</option>
+          <option value="info">Information</option>
+          <option value="rdv">Rendez-Vous</option>
+          <label for="message">Message</label>
+          <textarea class="rightpartform" id="message" required></textarea>
+          <input type="submit" value="Envoyer" id="subbtn"/>
+      </form>
+    </section>
   </main>
 
   <footer id="footerAll">

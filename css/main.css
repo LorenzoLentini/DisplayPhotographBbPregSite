@@ -193,7 +193,21 @@ header {
   justify-content: center;
 }
 
-figcaption{
+figcaption {
   font-size: 2vw;
   text-align: center;
+}
+
+.leftpartform{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10vw;
+  width: 30vw;
+}
+
+.rightpartform{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50vw;
+  width: 30vw;
 }
