@@ -78,20 +78,25 @@ header {
 .overimgvitr {
   background-color: #80808049;
   padding: 20px 10px;
-  border-radius: 15px;
   position: absolute;
-  bottom: 15%;
+  top: 10%;
+  bottom: 10%;
   right: 10%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .overimgtitle,
 .seance {
-  font-size: 300%;
+  font-size: 3vw;
   margin: 20px;
   text-decoration: none;
 }
 .adress {
-  font-size: 280%;
+  font-size: 2vw;
 }
 
 .accueilquickpres {
@@ -99,7 +104,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 24px;
+  font-size: 240%;
 }
 
 .presentation {
@@ -235,7 +240,7 @@ figcaption {
   width: 15vw;
 }
 .unroll {
-  width: 8vw;
+  width: 150px;
 }
 
 .mail,
@@ -286,4 +291,28 @@ figcaption {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.triophotopropos{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.onethird{
+  border-radius: 10px;
+  width: 25vw;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.centered{
+  width: 100%;
+margin: 0;
+display: flex;
+align-content: center;
+text-align: center;
+font-size: 24px;
+background-color: rgb(223, 184, 157);
 }
