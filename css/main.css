@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Ephesis", cursive;
-  src: url("fonts/Ephesis-Regular.ttf");
+  src: url("fonts/Ephesis-Regular.ttf") format("truetype");
 }
 
 input[type="text"] {
