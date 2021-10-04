@@ -1,12 +1,14 @@
 @font-face {
   font-family: "ephesisregular";
-  src: url("../SiteVitrinePhotographHtmlCss/fonts/Ephesis-Regular.ttf") format("truetype"),
-    url("../SiteVitrinePhotographHtmlCss/fonts/ephesis-regular-webfont.woff2") format("woff2"),
-    url("../SiteVitrinePhotographHtmlCss/fonts/ephesis-regular-webfont.woff") format("woff");
+  src: url("../SiteVitrinePhotographHtmlCss/fonts/Ephesis-Regular.ttf")
+      format("truetype"),
+    url("../SiteVitrinePhotographHtmlCss/fonts/ephesis-regular-webfont.woff2")
+      format("woff2"),
+    url("../SiteVitrinePhotographHtmlCss/fonts/ephesis-regular-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
 
 input[type="text"] {
   font-size: 18px;
@@ -30,23 +32,8 @@ body {
   background-color: rgb(150, 104, 150);
 }
 
-main {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
 header {
-  border: 0;
-  margin: 0;
-  padding: 0;
   background-color: rgb(181, 150, 211);
-}
-
-figure {
-  border: 0;
-  margin: 0;
-  padding: 0;
 }
 
 .logosite {
@@ -91,6 +78,9 @@ figure {
   text-align: center;
 }
 .imgvitr {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
   width: 100%;
 }
 .overimgvitr {
