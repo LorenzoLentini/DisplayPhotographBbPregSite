@@ -23,30 +23,30 @@ a:hover {
 }
 
 body {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
   font-family: "Ephesis", cursive;
   background-color: rgb(150, 104, 150);
 }
 
 main {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
   background-color: rgb(181, 150, 211);
 }
 
 figure {
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .logosite {
