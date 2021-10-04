@@ -78,7 +78,7 @@ header {
 }
 .imgvitr {
   margin: 0;
-  width: 100%;
+  width: 100vw;
 }
 .overimgvitr {
   background-color: #80808049;
