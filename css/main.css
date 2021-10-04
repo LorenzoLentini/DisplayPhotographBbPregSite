@@ -1,6 +1,14 @@
 @font-face {
-  font-family: "Ephesis", cursive;
-  src: url("../fonts/Ephesis-Regular.ttf") format("truetype");
+  font-family: "ephesisregular";
+  src: url("Ephesis-Regular.ttf") format("truetype"),
+    url("ephesis-regular-webfont.woff2") format("woff2"),
+    url("ephesis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-family: "ephesisregular";
 }
 
 input[type="text"] {
@@ -79,7 +87,6 @@ header {
   top: 10%;
   right: 10%;
   border-radius: 15px;
-
 }
 
 .overimgtitle,
@@ -99,7 +106,7 @@ header {
   align-items: center;
   font-size: 240%;
 }
-.portrait{
+.portrait {
   width: 500px;
 }
 
@@ -159,18 +166,15 @@ header {
 .tarifphoto3 {
   width: 25vw;
   border-radius: 15px;
-
 }
 .photo {
   width: 30vw;
   border-radius: 15px;
-
 }
 
 .photohead {
   border-radius: 15px;
   width: 65vw;
-
 }
 
 .centeredphotgal {
@@ -223,7 +227,6 @@ figcaption {
 .pnm {
   margin-left: 5vw;
   border-radius: 5px;
-
 }
 
 .msgtxtarea {
@@ -233,7 +236,6 @@ figcaption {
   height: 15vw;
   margin-right: 2vw;
   margin-left: 25vw;
-
 }
 
 .submit:hover {
@@ -242,7 +244,6 @@ figcaption {
   border-radius: 15px;
   width: 5vw;
   height: 2vw;
-
 }
 
 .submit {
@@ -250,26 +251,24 @@ figcaption {
   border-radius: 15px;
   width: 5vw;
   height: 2vw;
-
 }
 
-.triophotopropos{
-  display:flex;
+.triophotopropos {
+  display: flex;
   justify-content: space-evenly;
 }
 
-.onethird{
+.onethird {
   border-radius: 10px;
   width: 25vw;
-
 }
 
-.centered{
+.centered {
   width: 100%;
-margin: 0;
-display: flex;
-align-content: center;
-text-align: center;
-font-size: 24px;
-background-color: rgb(223, 184, 157);
+  margin: 0;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(223, 184, 157);
 }
