@@ -1,8 +1,8 @@
 @font-face {
   font-family: "ephesisregular";
-  src: url("Ephesis-Regular.ttf") format("truetype"),
-    url("ephesis-regular-webfont.woff2") format("woff2"),
-    url("ephesis-regular-webfont.woff") format("woff");
+  src: url("../DisplayPhotographBbPregSite-main/fonts/Ephesis-Regular.ttf") format("truetype"),
+    url("../DisplayPhotographBbPregSite-main/fonts/ephesis-regular-webfont.woff2") format("woff2"),
+    url("../DisplayPhotographBbPregSite-main/fonts/ephesis-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
